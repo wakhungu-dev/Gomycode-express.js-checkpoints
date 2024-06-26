@@ -1,0 +1,38 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for Yarn
+yarn.lock
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore .env files containing sensitive information
+.env.*
+
+# Ignore any file or directory named "secret"
+secret
+
+# Ignore backup files
+*.bak
+*.backup
+*.swp
